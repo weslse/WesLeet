@@ -3,19 +3,21 @@
  * 2020.07.02
  */
 
+ // Problem
+ // 665. Non-decreasing Array
+ // Given an array nums with n integers, your task is to check if it could become non - decreasing by modifying at most 1 element.
+ // We define an array is non - decreasing if nums[i] <= nums[i + 1] holds for every i(0 - based) such that(0 <= i <= n - 2).
+
+ // RESULT
+ // Runtime: 56 ms, faster than 86.25% of C++ online submissions for Non-decreasing Array.
+ // Memory Usage : 27.1 MB, less than 39.94% of C++ online submissions for Non - decreasing Array.
+
+
 #include <vector>
 #include <algorithm>
 #include <iostream>
 using namespace std;
 
-// Problem
-// 665. Non-decreasing Array
-// Given an array nums with n integers, your task is to check if it could become non - decreasing by modifying at most 1 element.
-// We define an array is non - decreasing if nums[i] <= nums[i + 1] holds for every i(0 - based) such that(0 <= i <= n - 2).
-
-// RESULT
-// Runtime: 56 ms, faster than 86.25% of C++ online submissions for Non-decreasing Array.
-// Memory Usage : 27.1 MB, less than 39.94% of C++ online submissions for Non - decreasing Array.
 
 class Solution {
 public:
